@@ -1,0 +1,2 @@
+# 50 days 50 projects using HTML CSS and JAVASCRIPT
+ The "50 Days 50 Projects" is a challenge designed to enhance your skills in web development using HTML, CSS, and JavaScript. Over the course of 50 days, you will build and complete 50 unique projects, each focusing on different aspects of these technologies. This challenge will help you gain practical experience, explore various concepts, and improve your proficiency in web development.
