@@ -52,12 +52,47 @@ body
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
-    border-radius: 30px;
+    border-radius: 50px;
     color: #fff;
     cursor: pointer;
     margin:10px;
     display:flex;
     flex:0.5;
     align-items: end;
+    transition: all 0.7s ease-in;
+}
+
+.panel h3
+{
+    font-size: 24px;
+    margin:0;
+    opacity: 0;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    
+}
+
+.panel.active
+{
+    flex:5;
+}
+
+.panel.active h3
+{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width:480px)
+{
+    .container{
+        width:100vw;
+    }
+
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5)
+    {
+        display:none;
+    }
 }
 
