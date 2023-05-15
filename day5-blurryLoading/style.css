@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.bg {
+
+
+    position: absolute;
+   
+    background-image: url('https://img.freepik.com/free-photo/closeup-computer-display-software-developer-typing-database-functions-script-it-startup-agency-display-concept-programer-writing-source-code-scrolling-text-programming-language_482257-33542.jpg?w=1380&t=st=1684176667~exp=1684177267~hmac=ddfb7661576348731e783afdd2f17612b08393f4c71f04de854266174920fbfa');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+
+}
+
+.loading {
+    font-size: 30px;
+    color: #fff;
+
+}
